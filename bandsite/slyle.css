@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(253, 61, 167);
+    color: rgb(5, 67, 138);
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 5%;
+}
+
+nav {
+    background-color: rgb(103, 176, 254);
+}
+
+nav li {
+    display: inline-block;s
+}
+
+nav a {
+    display: block; 
+    padding: 20px
+}
+
+nav a:hover {
+    background-color: rgb(241, 26, 158);
+}
+
+main {
+    background-color: rgb(241, 26, 158);
+}
+
+#Merch {
+    background-color: aqua;
+}
+article {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #45a1ff;
+    color: #fff;
+}
+.fit-picture {
+    width: 250px;
+}
