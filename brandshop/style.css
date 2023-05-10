@@ -83,3 +83,44 @@ footer i {
 footer i:hover {
     transform: scale(1.1);
 }
+
+figure {
+    position: relative;
+}
+
+figcaption {
+    position: absolute;
+    bottom: 1900%;
+    left: 1%;
+    padding: 1rem;
+    background-color: #66def1;
+}
+
+section {
+    margin-bottom: 2rem;
+    padding: 0 4rem;
+}
+
+.highlight {
+    padding: 2rem;
+    background-color: #d4cce7;
+}
+
+.memberfoto {
+    background-image: url(membership\ foto.webp);
+    align-self: stretch;
+    background-size: cover;
+}
+
+#membership .flex-item {
+    padding: 2rem;
+}
+figure {
+    position: relative;
+}
+
+figcaption {
+    position: absolute;
+    bottom: 12%;
+    left: 15%;
+}
