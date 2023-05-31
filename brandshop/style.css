@@ -115,6 +115,7 @@ section {
 #membership .flex-item {
     padding: 2rem;
 }
+
 figure {
     position: relative;
 }
@@ -123,4 +124,24 @@ figcaption {
     position: absolute;
     bottom: 12%;
     left: 15%;
+}
+
+footer {
+    padding: 5vw 10vw;
+    background-color: #111;
+    color: #666;
+}
+
+footer .flex-container:first-child {
+    margin-bottom: 2rem;
+}
+
+footer ul li {
+    font-size: 0.8rem;
+    line-height: 2;
+    list-style-type: none;
+}
+footer li:first-child a {
+    font-weight: 900;
+    font-size: 1.2rem;
 }
